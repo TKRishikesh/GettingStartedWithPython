@@ -1,0 +1,42 @@
+# Byte-code files
+*.pyc
+__pycache__/
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+/bin/
+/include/
+/lib/
+/share/
+
+# Editor/IDE files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# Test files
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Distribution / build files
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
