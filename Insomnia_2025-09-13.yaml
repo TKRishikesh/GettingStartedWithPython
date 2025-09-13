@@ -1,0 +1,172 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1757694975782
+  modified: 1757694975782
+  description: ""
+collection:
+  - name: NodeJs Server
+    meta:
+      id: fld_9813670bc569469ba602b88a6ae66de3
+      created: 1757695024610
+      modified: 1757740132127
+      sortKey: -1757695024610
+      description: ""
+    children:
+      - name: gRPC
+        meta:
+          id: fld_420c5517e607445aab749f5111297227
+          created: 1757742329681
+          modified: 1757742540145
+          sortKey: -1757742329681
+          description: ""
+        children:
+          - url: localhost:50051
+            name: Get User
+            meta:
+              id: greq_457847fd001841888650ee13aadcbfe8
+              created: 1757742333701
+              modified: 1757768972626
+              isPrivate: false
+              sortKey: -1757742333701
+              description: ""
+            body:
+              text: |-
+                {
+                	"id":3
+                }
+            metadata:
+              - id: pair_4ddccedcf7b8444d8306c0de4d25c4ba
+                name: ""
+                value: ""
+                description: ""
+                disabled: true
+            protoFileId: pf_0901f5cbff2b4fdfb7b7435c7ad383be
+            protoMethodName: /userPackage.User/GetUser
+            reflectionApi:
+              enabled: false
+              url: https://buf.build
+              apiKey: ""
+              module: buf.build/connectrpc/eliza
+          - url: localhost:50051
+            name: List Users
+            meta:
+              id: greq_5dcf56bd6f044e309b3ca19698d163ad
+              created: 1757742467300
+              modified: 1757743013503
+              isPrivate: false
+              sortKey: -1757742333651
+              description: ""
+            body:
+              text: "{}"
+            metadata:
+              - id: pair_4ddccedcf7b8444d8306c0de4d25c4ba
+                name: ""
+                value: ""
+                description: ""
+                disabled: true
+            protoFileId: pf_0901f5cbff2b4fdfb7b7435c7ad383be
+            protoMethodName: /userPackage.User/ListUsers
+            reflectionApi:
+              enabled: false
+              url: https://buf.build
+              apiKey: ""
+              module: buf.build/connectrpc/eliza
+          - url: localhost:50051
+            name: Create User
+            meta:
+              id: greq_0bd5f771695249ffaf76540cb91fd90c
+              created: 1757742548987
+              modified: 1757742579125
+              isPrivate: false
+              sortKey: -1757742333676
+              description: ""
+            body:
+              text: |-
+                {
+                	"name": "Rishikesh",
+                	"email": "rishikesh@email.com"
+                }
+            metadata:
+              - id: pair_4ddccedcf7b8444d8306c0de4d25c4ba
+                name: ""
+                value: ""
+                description: ""
+                disabled: true
+            protoFileId: pf_0901f5cbff2b4fdfb7b7435c7ad383be
+            protoMethodName: /userPackage.User/CreateUser
+            reflectionApi:
+              enabled: false
+              url: https://buf.build
+              apiKey: ""
+              module: buf.build/connectrpc/eliza
+          - url: localhost:50051
+            name: Edit User
+            meta:
+              id: greq_ec3528d2ee00421cbeefac2eb9a1ec9e
+              created: 1757742673947
+              modified: 1757769218910
+              isPrivate: false
+              sortKey: -1757742333663.5
+              description: ""
+            body:
+              text: |-
+                {
+                	"id" : 3,
+                	"name": "Rishikesh Kamalamoorthy",
+                	"email": "rishikesh Kamalamoorthy@demail.com"
+                }
+            metadata:
+              - id: pair_4ddccedcf7b8444d8306c0de4d25c4ba
+                name: ""
+                value: ""
+                description: ""
+                disabled: true
+            protoFileId: pf_0901f5cbff2b4fdfb7b7435c7ad383be
+            protoMethodName: /userPackage.User/EditUser
+            reflectionApi:
+              enabled: false
+              url: https://buf.build
+              apiKey: ""
+              module: buf.build/connectrpc/eliza
+          - url: localhost:50051
+            name: Delete user
+            meta:
+              id: greq_3bf2e21aab3047f4956292a18c214634
+              created: 1757742725094
+              modified: 1757769246709
+              isPrivate: false
+              sortKey: -1757742333688.5
+              description: ""
+            body:
+              text: |-
+                {
+                	"id":2
+                }
+            metadata:
+              - id: pair_4ddccedcf7b8444d8306c0de4d25c4ba
+                name: ""
+                value: ""
+                description: ""
+                disabled: true
+            protoFileId: pf_0901f5cbff2b4fdfb7b7435c7ad383be
+            protoMethodName: /userPackage.User/DeleteUser
+            reflectionApi:
+              enabled: false
+              url: https://buf.build
+              apiKey: ""
+              module: buf.build/connectrpc/eliza
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1757694988902
+    modified: 1757694988902
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1757694988779
+    modified: 1757694988779
+    isPrivate: false
